@@ -51,10 +51,11 @@ can be taken (READ, INSERT, UPDATE, DELETE, etc.) have taken form as atomic comp
 components are then created in the ComposedComponents class (where objects ending with the letter A are atomic (singular) components,
 and objects ending with the letter C are composed (multiple) for easier understanding in this implementation). Once fully composed,
 the top-most composit component's interface method is called and the application runs as you'd expect. Where this example is small
-and basic, it proves to show how different components containing individual functionality can be composed together into one object/component
-and still be easily used.
+and basic, it proves to show how different components containing individual functionality can be composed together into one object/component and still be easily used. It should be noted that the tools required to create composite components can be found in the 'composition' package. A flowchart diagram of this implementation can be seen below:
 
-The unit tests given are very basic and only stand to ensure that components are being composed properly without error.
+![A Flowchart Diagram](https://github.com/domfarr98/Java-Objects-as-Components/blob/master/Flowchart.png)
+
+The unit tests given are fairly basic and only stand to ensure that components are being composed properly without error.
 
 ## License
 
